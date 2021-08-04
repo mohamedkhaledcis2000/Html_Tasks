@@ -1,0 +1,96 @@
+body{
+    background-color: #00cc99;
+}
+.container{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    padding: auto;
+  
+}
+.content{
+    margin: 50% auto;
+   
+}
+.logo{
+ width: 700px;
+ height: 350px;
+    background-color:#352129;
+   position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    box-shadow: 1px 1px 1px 5px rgb(25 21 14/30%)
+}
+
+.logo form h1{color:white; margin: 5px;
+}
+.logo h3{font-family: 'Roboto Condensed',serif;
+    padding-top: 30px; color:darkgray;margin: 5px;}
+.logo h1{font-family: 'Roboto Condensed',serif; font-size: 36px; padding-bottom: 10px;}
+/* style input */
+ form input{
+    width: 35%;
+     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin:10px auto;
+    text-transform: capitalize;
+    box-sizing: border-box;}
+.in{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.pass{
+    padding-bottom: 20px;
+}
+/*السمات المشتركه*/
+.in label , .pass label{
+     border-radius: 28px;
+     height: 21px;
+    width: 20px;
+    padding: 5px;
+     text-align: center;
+    border:darkorchid  2.3px solid;
+    color:white;
+    font-size: 20px;
+    font-family:monospace;
+    
+}
+/*start label1*/
+.in label{
+    position: absolute;
+   left: 181px;
+    bottom: 196px;
+}    
+/*end label*/
+/*start lable2*/
+.pass label{
+    position: absolute;
+  left: 181px;
+    bottom: 123px;
+    }
+/*end lable2*/
+/*style the line*/
+form .line{
+      width: 1.5px;
+    height: 40px;
+    position: absolute;
+       top: 153px;
+    left: 197px;
+    background-color:darkorchid;
+}
+/*end the line*/
+   /* style button  */
+    form .button{
+        width: 15%;
+        margin:30px auto;
+        padding-top: 10px;
+        text-align:center;
+        background-color: #796e75;
+        border: #111011 .7px solid;
+        color: white;
+        cursor:pointer;}

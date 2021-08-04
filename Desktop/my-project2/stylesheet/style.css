@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #330066;
+}
+.contanier {
+    width: 800px;
+    height: auto;
+    margin: auto;
+}
+.content{
+    background-color: #33ccff;
+    width: 754px;
+    height: 369px;
+    padding:30px;;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 100px;
+
+      
+}
+.login{
+    width: 337px;
+    height: 250px;
+    margin: auto;
+    padding: 30px;
+  
+    
+}
+.login h4{
+    color:#66cccc;
+    text-transform: capitalize;
+}
+form{
+    background-color: white;
+    padding: 20px;
+   border: #46acce 1.6px solid;
+}
+form input{
+    width: 100%;
+    border: #cccccc .5px solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    
+}
+/* button */
+form input[type="submit"]{
+    background-color: #33ccff;
+    color: white; 
+    cursor:pointer;
+}
